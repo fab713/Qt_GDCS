@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BusBarPage</class>
+ <widget class="QWidget" name="BusBarPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Agency FB</family>
+    <pointsize>16</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>0</y>
+     <width>593</width>
+     <height>484</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="titleLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>出线回路</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="firstwidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="devicelabel">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>设备型号:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="deviceDatalabel">
+         <property name="maximumSize">
+          <size>
+           <width>137</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="linelabel">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>线路名称:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lineDatalabel">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>137</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="secondwidget" native="true">
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="titlelabel">
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>总汇</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="clabel">
+         <property name="text">
+          <string>C相电流</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="blabel">
+         <property name="text">
+          <string>B相电流</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="alabel">
+         <property name="text">
+          <string>A相电流</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="cDatalabel">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="bDatalabel">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="aDatalabel">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="thirdwidget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>开关型号</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="switchDatalabel">
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="fourwidget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="xTitlelabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>相电流值</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="axlabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>同A相电流值</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="axDatalabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="bxlabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>同B相电流值</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="bxDatalabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="cxlabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>同C相电流值</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="cxDatalabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="fivewidget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="trModellabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>电流互感器型号</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="trDatalabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="xharmoniclabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>相谐波总量</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="xharmonicDatalabel">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="sixwidget" native="true">
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="trModellabelTitle">
+         <property name="text">
+          <string>电流互感器变比</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="sevenwidget" native="true">
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QListWidget" name="harmoniclistWidget"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

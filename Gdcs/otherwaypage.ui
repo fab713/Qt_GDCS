@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OtherWayPage</class>
+ <widget class="QWidget" name="OtherWayPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>otherWayWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QWidget" name="firstWidget" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="titleLabel">
+           <property name="text">
+            <string>回路</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="secondWidget" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="deviceNameLabel">
+           <property name="text">
+            <string>开关设备型号:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="deviceNameDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="threeWidget" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="lineNameLabel">
+           <property name="text">
+            <string>线路名称:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lineNameDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

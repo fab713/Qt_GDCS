@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>595</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::PreventContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>母线</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="totalTable">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QWidget" name="totalOutwidget" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QWidget" name="firstWidget" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>3</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="totalWidget" native="true">
+               <layout class="QGridLayout" name="gridLayout" columnstretch="1,4">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item row="3" column="0">
+                 <widget class="QLabel" name="cxTotalVoltageLabel">
+                  <property name="text">
+                   <string>C相电压:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="axTotalVoltageLabel">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>A相电压:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QLabel" name="bxTotalVoltageDataLabel">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <widget class="QLabel" name="cxTotalVoltageDataLabel">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="bxTotalVoltageLabel">
+                  <property name="text">
+                   <string>B相电压:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="aTotalTitleLabel">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>总汇</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QLabel" name="axTotalVoltageDataLabel">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="xVoltageWidget" native="true">
+               <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,5">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="xCurrentLabel">
+                  <property name="text">
+                   <string>相电压值 </string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="taxVoltageLabel">
+                  <property name="text">
+                   <string>同A相电压值:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QLabel" name="taxVoltageDataLabel">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="tbxVoltageLabel">
+                  <property name="text">
+                   <string>同B相电压值:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QLabel" name="tbxVoltageDataLabel">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QLabel" name="tcxVoltageLabel">
+                  <property name="text">
+                   <string>同C相电压值:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <widget class="QLabel" name="tcxVoltageDataLabel">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="secondWidget" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="xTotalHarmonicLabel">
+               <property name="text">
+                <string>相谐波总量:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="xTotalHarmonicDataLabel">
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="voltagethLabel">
+               <property name="text">
+                <string>电压互感器型号:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="voltagethDataLabel">
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="threeWidget" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>4</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>4</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="voltageLabel">
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>电压互感器变比</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="harmonicListWidget"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="atab">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+      <widget class="QWidget" name="aOutwidget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>553</width>
+         <height>343</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_20">
+        <item>
+         <widget class="QWidget" name="aFirstWidget" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_26">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="aTotalWidget" native="true">
+             <layout class="QGridLayout" name="gridLayout_20" columnstretch="1,4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="3" column="0">
+               <widget class="QLabel" name="cxTotalVoltageLabel_7">
+                <property name="text">
+                 <string>C相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="axTotalVoltageLabel_7">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>A相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="aBxTotalVoltageDataLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="aCxTotalVoltageDataLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="bxTotalVoltageLabel_7">
+                <property name="text">
+                 <string>B相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="aTotalTitleLabel_7">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>总汇</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="aAxTotalVoltageDataLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="xVoltageWidget_7" native="true">
+             <layout class="QGridLayout" name="gridLayout_21" columnstretch="2,5">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QLabel" name="xCurrentLabel_10">
+                <property name="text">
+                 <string>相电压值 </string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="taxVoltageLabel_9">
+                <property name="text">
+                 <string>同A相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="aTaxVoltageDataLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="tbxVoltageLabel_9">
+                <property name="text">
+                 <string>同B相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="aTbxVoltageDataLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="tcxVoltageLabel_9">
+                <property name="text">
+                 <string>同C相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="aTcxVoltageDataLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="aSecondWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_27">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="xTotalHarmonicLabel_8">
+             <property name="text">
+              <string>相谐波总量:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="aXTotalHarmonicDataLabel">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="voltagethLabel_8">
+             <property name="text">
+              <string>电压互感器型号:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="aVoltagethDataLabel">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="aThreeWidget" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_21">
+           <property name="spacing">
+            <number>4</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>4</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="voltageLabel_7">
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <weight>75</weight>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>电压互感器变比</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QListWidget" name="aHarmonicListWidget"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="btab">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QWidget" name="bOutwidget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>553</width>
+         <height>343</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QWidget" name="bFirstWidget" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="totalWidget_2" native="true">
+             <layout class="QGridLayout" name="gridLayout_3" columnstretch="1,4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="3" column="0">
+               <widget class="QLabel" name="cxTotalVoltageLabel_2">
+                <property name="text">
+                 <string>C相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="axTotalVoltageLabel_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>A相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="bxTotalVoltageDataLabel_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="cxTotalVoltageDataLabel_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="bxTotalVoltageLabel_2">
+                <property name="text">
+                 <string>B相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="aTotalTitleLabel_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>总汇</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="axTotalVoltageDataLabel_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="xVoltageWidget_2" native="true">
+             <layout class="QGridLayout" name="gridLayout_6" columnstretch="2,5">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QLabel" name="xCurrentLabel_3">
+                <property name="text">
+                 <string>相电压值 </string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="taxVoltageLabel_3">
+                <property name="text">
+                 <string>同A相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="taxVoltageDataLabel_3">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="tbxVoltageLabel_3">
+                <property name="text">
+                 <string>同B相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="tbxVoltageDataLabel_3">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="tcxVoltageLabel_3">
+                <property name="text">
+                 <string>同C相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="tcxVoltageDataLabel_3">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="bSecondWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="xTotalHarmonicLabel_2">
+             <property name="text">
+              <string>相谐波总量:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="xTotalHarmonicDataLabel_2">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="voltagethLabel_2">
+             <property name="text">
+              <string>电压互感器型号:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="voltagethDataLabel_2">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="bThreeWidget" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <property name="spacing">
+            <number>4</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>4</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="voltageLabel_2">
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <weight>75</weight>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>电压互感器变比</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QListWidget" name="harmonicListWidget_2"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="ctab">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QWidget" name="cOutwidget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>553</width>
+         <height>343</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QWidget" name="cFirstWidget" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="totalWidget_8" native="true">
+             <layout class="QGridLayout" name="gridLayout_4" columnstretch="1,4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="3" column="0">
+               <widget class="QLabel" name="cxTotalVoltageLabel_8">
+                <property name="text">
+                 <string>C相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="axTotalVoltageLabel_8">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>A相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="bxTotalVoltageDataLabel_8">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="cxTotalVoltageDataLabel_8">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="bxTotalVoltageLabel_8">
+                <property name="text">
+                 <string>B相电压:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="aTotalTitleLabel_8">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>总汇</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="axTotalVoltageDataLabel_8">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="xVoltageWidget_8" native="true">
+             <layout class="QGridLayout" name="gridLayout_5" columnstretch="2,5">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QLabel" name="xCurrentLabel_2">
+                <property name="text">
+                 <string>相电压值 </string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="taxVoltageLabel_2">
+                <property name="text">
+                 <string>同A相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="taxVoltageDataLabel_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="tbxVoltageLabel_2">
+                <property name="text">
+                 <string>同B相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="tbxVoltageDataLabel_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="tcxVoltageLabel_2">
+                <property name="text">
+                 <string>同C相电压值:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="tcxVoltageDataLabel_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="cSecondWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="xTotalHarmonicLabel_9">
+             <property name="text">
+              <string>相谐波总量:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="xTotalHarmonicDataLabel_9">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="voltagethLabel_9">
+             <property name="text">
+              <string>电压互感器型号:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="voltagethDataLabel_9">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="cThreeWidget" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="spacing">
+            <number>4</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>4</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="voltageLabel_8">
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <weight>75</weight>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>电压互感器变比</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QListWidget" name="harmonicListWidget_9"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

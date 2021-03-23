@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FirstWayPage</class>
+ <widget class="QWidget" name="FirstWayPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel
+{
+	min-height:20px;
+	max-height:20px;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>7</number>
+   </property>
+   <property name="leftMargin">
+    <number>9</number>
+   </property>
+   <property name="topMargin">
+    <number>9</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="firstwidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>20</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="mainTitleLabel">
+        <property name="text">
+         <string>出线回路</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="secondWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>20</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lineNameLabel">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>线路名称:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="deviceDataLabel">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="deviceLabel">
+        <property name="text">
+         <string>设备型号:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lineNameDataLabel">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="fourthWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>20</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="switchLabel">
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>开关型号:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="switchDataLabel">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>3</number>
+      </property>
+      <property name="bottomMargin">
+       <number>3</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="thridWidget" native="true">
+        <layout class="QGridLayout" name="gridLayout" columnstretch="1,4">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="3" column="0">
+          <widget class="QLabel" name="cxLabel">
+           <property name="text">
+            <string>C相电流:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="axLabel">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>A相电流:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="bxDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="cxDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="bxLabel">
+           <property name="text">
+            <string>B相电流:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="totalTitleLabel">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>总汇</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="axDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="fiveWidget" native="true">
+        <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,5">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="xCurrentLabel">
+           <property name="text">
+            <string>相电流值 </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="taxLabel">
+           <property name="text">
+            <string>同A相电流值:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="taxDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="tbxLabel">
+           <property name="text">
+            <string>同B相电流值:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="tbxDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="txcLabel">
+           <property name="text">
+            <string>同C相电流值:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="tcxDataLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="sixWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>20</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="xHarmonicLabel">
+        <property name="text">
+         <string>相谐波总量:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="xHarmonicDataLabel">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="currenthLabel">
+        <property name="text">
+         <string>电流互感器型号:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="currenthDataLabel">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="eightWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>4</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="currencLabel">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>电流互感器变比</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="harmonicListWidget"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
